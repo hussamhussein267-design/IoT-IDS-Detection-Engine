@@ -1,3 +1,7 @@
+IoT-IDS-Detection-Engine
+📌 Project Overview
+The IoT-IDS-Detection-Engine repository provides the real-time detection engine for IoT Intrusion Detection Systems.
+It integrates signature-based rules with machine learning ensemble models (trained in the ML-Pipeline repository) to deliver a hybrid IDS capable of detecting both known and unknown attacks in IoT networks.
 🎯 Project Objectives
 Signature Detection → Match traffic against predefined high-confidence rules.
 
@@ -8,8 +12,7 @@ Real-Time Simulation → Stream IoT traffic and evaluate detection latency.
 Integration → Use trained models from ML-Pipeline.
 
 Output Analysis → Generate detection logs, alerts, and performance metrics.
-
-📂 Project Structure
+Project Structure
 Code
 IoT-IDS-Detection-Engine/
 ├── 04_signature_based.py       # Signature-based detection rules
@@ -18,7 +21,7 @@ IoT-IDS-Detection-Engine/
 ├── models/                     # Pre-trained models (from ML-Pipeline)
 ├── outputs/                    # Detection results & logs
 └── README.md                   # Documentation
-🚀 Quick Start
+Quick Start
 1. Prerequisites
 Python 3.8+
 
