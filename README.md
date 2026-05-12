@@ -226,6 +226,7 @@ Output performance statistics
 Output: outputs/realtime_alerts.csv, outputs/latency_measurements.csv
 
 📊 Phase 3: Dashboard
+[IoT-IDS-Dashboard](https://github.com/USERNAME/IoT-IDS-Dashboard)
 07_dashboard.py
 Flask-based web dashboard:
 
