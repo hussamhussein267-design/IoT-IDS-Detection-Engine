@@ -1,0 +1,95 @@
+IoT-IDS Dataset Exploration Summary
+============================================================
+
+Train rows:      5,491,971
+Test rows:       1,176,851
+Validation rows: 1,176,851
+Total rows:      7,845,673
+Columns:         47
+Label column:    label
+
+Label Distribution (Train):
+----------------------------------------
+DDoS-ICMP_Flood                     848,088
+DDoS-UDP_Flood                      637,558
+DDoS-TCP_Flood                      528,499
+DDoS-PSHACK_Flood                   481,254
+DDoS-SYN_Flood                      478,653
+DDoS-RSTFINFlood                    475,441
+DDoS-SynonymousIP_Flood             422,083
+DoS-UDP_Flood                       390,422
+DoS-TCP_Flood                       314,174
+DoS-SYN_Flood                       237,573
+BenignTraffic                       129,538
+Mirai-greeth_flood                  116,133
+Mirai-udpplain                      104,814
+Mirai-greip_flood                   88,821
+DDoS-ICMP_Fragmentation             53,046
+MITM-ArpSpoofing                    36,316
+DDoS-UDP_Fragmentation              34,169
+DDoS-ACK_Fragmentation              33,581
+DNS_Spoofing                        21,214
+Recon-HostDiscovery                 15,737
+Recon-OSScan                        11,587
+Recon-PortScan                      9,648
+DoS-HTTP_Flood                      8,487
+VulnerabilityScan                   4,396
+DDoS-HTTP_Flood                     3,371
+DDoS-SlowLoris                      2,757
+DictionaryBruteForce                1,541
+BrowserHijacking                    665
+CommandInjection                    620
+SqlInjection                        590
+XSS                                 414
+Backdoor_Malware                    392
+Recon-PingSweep                     249
+Uploading_Attack                    140
+
+Column Names:
+  - flow_duration
+  - Header_Length
+  - Protocol Type
+  - Duration
+  - Rate
+  - Srate
+  - Drate
+  - fin_flag_number
+  - syn_flag_number
+  - rst_flag_number
+  - psh_flag_number
+  - ack_flag_number
+  - ece_flag_number
+  - cwr_flag_number
+  - ack_count
+  - syn_count
+  - fin_count
+  - urg_count
+  - rst_count
+  - HTTP
+  - HTTPS
+  - DNS
+  - Telnet
+  - SMTP
+  - SSH
+  - IRC
+  - TCP
+  - UDP
+  - DHCP
+  - ARP
+  - ICMP
+  - IPv
+  - LLC
+  - Tot sum
+  - Min
+  - Max
+  - AVG
+  - Std
+  - Tot size
+  - IAT
+  - Number
+  - Magnitue
+  - Radius
+  - Covariance
+  - Variance
+  - Weight
+  - label

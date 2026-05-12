@@ -1,0 +1,61 @@
+IoT-IDS Hybrid Detection Results
+============================================================
+
+Confidence Threshold: 0.95
+
+Signature-Based Accuracy:  3.7424%
+Decision Tree Accuracy:    86.3401%
+Random Forest Accuracy:    86.4706%
+XGBoost Accuracy:          86.5744%
+Ensemble Accuracy:         86.6306%
+Hybrid Accuracy:           86.6306%
+Hybrid F1-Score:           0.8584
+Hybrid Precision:          0.8796
+Hybrid Recall:             0.8663
+
+ML decisions:        1,176,851
+Signature overrides: 0
+
+Improvement over XGBoost: +0.0562%
+
+Classification Report (Hybrid):
+                         precision    recall  f1-score   support
+
+       Backdoor_Malware       0.75      0.03      0.06        89
+          BenignTraffic       0.73      0.98      0.83     27709
+       BrowserHijacking       0.80      0.06      0.11       134
+       CommandInjection       0.86      0.15      0.26       119
+ DDoS-ACK_Fragmentation       0.99      0.99      0.99      7292
+        DDoS-HTTP_Flood       0.79      0.74      0.76       709
+        DDoS-ICMP_Flood       1.00      1.00      1.00    180447
+DDoS-ICMP_Fragmentation       0.99      0.98      0.98     11402
+      DDoS-PSHACK_Flood       1.00      1.00      1.00    103326
+       DDoS-RSTFINFlood       1.00      1.00      1.00    101819
+         DDoS-SYN_Flood       0.68      0.96      0.80    102208
+         DDoS-SlowLoris       0.75      0.79      0.77       622
+DDoS-SynonymousIP_Flood       0.97      0.64      0.77     90480
+         DDoS-TCP_Flood       0.79      0.98      0.87    113735
+         DDoS-UDP_Flood       0.75      0.94      0.84    136717
+ DDoS-UDP_Fragmentation       0.99      0.99      0.99      7224
+           DNS_Spoofing       0.74      0.30      0.43      4570
+   DictionaryBruteForce       0.73      0.18      0.29       319
+         DoS-HTTP_Flood       0.87      0.91      0.89      1805
+          DoS-SYN_Flood       0.68      0.52      0.59     51116
+          DoS-TCP_Flood       0.94      0.56      0.70     67697
+          DoS-UDP_Flood       0.84      0.50      0.63     83627
+       MITM-ArpSpoofing       0.84      0.61      0.70      7840
+     Mirai-greeth_flood       0.99      0.98      0.99     24934
+      Mirai-greip_flood       0.98      0.99      0.98     19279
+         Mirai-udpplain       1.00      1.00      1.00     22536
+    Recon-HostDiscovery       0.77      0.62      0.68      3331
+           Recon-OSScan       0.45      0.11      0.17      2433
+        Recon-PingSweep       0.00      0.00      0.00        53
+         Recon-PortScan       0.50      0.29      0.37      2082
+           SqlInjection       1.00      0.03      0.05       148
+       Uploading_Attack       0.00      0.00      0.00        33
+      VulnerabilityScan       0.70      0.87      0.77       913
+                    XSS       1.00      0.02      0.04       103
+
+               accuracy                           0.87   1176851
+              macro avg       0.79      0.61      0.63   1176851
+           weighted avg       0.88      0.87      0.86   1176851

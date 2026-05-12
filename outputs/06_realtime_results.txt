@@ -1,0 +1,29 @@
+IoT-IDS Real-Time Simulation Results
+============================================================
+
+Total Packets:       100
+Attacks Detected:    94 (94.0%)
+Detection Accuracy:  79.00%
+Avg Detection Time:  52.15 ms
+Min Detection Time:  0.01 ms
+Max Detection Time:  71.16 ms
+Throughput:          19 packets/second
+
+Attack Distribution:
+  DDoS-PSHACK_Flood                   15
+  DDoS-ICMP_Flood                     14
+  Mirai-udpplain                      12
+  DDoS-SYN_Flood                      12
+  DDoS-TCP_Flood                      8
+  BenignTraffic                       6
+  DDoS-SynonymousIP_Flood             6
+  DoS-UDP_Flood                       5
+  DoS-SYN_Flood                       5
+  DDoS-RSTFINFlood                    4
+  DDoS-UDP_Flood                      4
+  Mirai-greeth_flood                  2
+  DNS_Spoofing                        2
+  DoS-TCP_Flood                       2
+  DoS-HTTP_Flood                      1
+  Mirai-greip_flood                   1
+  DDoS-UDP_Fragmentation              1
